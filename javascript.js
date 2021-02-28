@@ -9,14 +9,12 @@
        int = int + 1;
   
        num.innerHTML = int;
-       num.value="";
-  });
+   });
   button2.addEventListener('click',(e)=>{
        e.preventDefault();
   
         int = int - 1;
         num.innerHTML = int;
-        num.value="";
-  
+   
   });
    
